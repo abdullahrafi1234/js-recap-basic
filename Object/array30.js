@@ -8,9 +8,8 @@ function highestRunScorer(batsman) {
 
         // }
         if (runScore < batsman[x][1]) {
-            runScore = batsman[x][1];
+            // runScore = batsman[x][1];
             runScorer = batsman[x][0]
-
 
         }
     }
