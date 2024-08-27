@@ -18,3 +18,4 @@ console.log(names)
 
 var newArray = names.slice(0, 1)
 console.log(newArray)
+console.log(names)
