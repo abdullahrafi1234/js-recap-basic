@@ -1,8 +1,9 @@
 function highestRunScorer(batsman) {
-    var runScorer = [0]
+    console.log(batsman)
+    var runScorer = batsman[0]
 
-    for (x = 0; x > batsman.length; x++) {
-        for (y = 0; y > batsman.length; y++) {
+    for (x = 0; x < batsman.length; x++) {
+        for (y = 0; y < batsman.length; y++) {
 
         }
     }
