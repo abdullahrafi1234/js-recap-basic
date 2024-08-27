@@ -11,5 +11,7 @@ names.splice(2, 1, 'jubair', 'rahim')
 // 2 er mane hoilo 2 index theke add hbe name gula and 1 er mane hoilo sesh dik theke 1 ta element remove hbe
 console.log(names)
 
-names.splice(0, 2)
+
+//removing elements using splice
+names.splice(0, 2)   // 0 index theke suro kore 2 ta element remove hobe
 console.log(names)
