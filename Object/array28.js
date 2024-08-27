@@ -25,13 +25,19 @@ var names = ['arif', 'rafi', 'kolpona', 'abir', 'manush']
 var sortedNames = names.sort()
 console.log(sortedNames)
 
+//reverse sorting for string
+sortedNames.reverse()
+console.log(sortedNames)
+
+
 var numbers = [12, 34, 43, 20, 10, 39]
 
 //number sorting er jonno function niye korte hoy karon sort shodo string e kaj kore
 
-// numbers.sort(function(a,b) {
-//     return a-b
-// })
+numbers.sort(function(a,b) {
+    return a-b
+})
+console.log(numbers)
 
 //reverse sorting
 numbers.sort(function(a,b) {
