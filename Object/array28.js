@@ -15,3 +15,6 @@ console.log(names)
 //removing elements using splice
 names.splice(0, 2)   // 0 index theke suro kore 2 ta element remove hobe
 console.log(names)
+
+var newArray = names.slice(0, 1)
+console.log(newArray)
