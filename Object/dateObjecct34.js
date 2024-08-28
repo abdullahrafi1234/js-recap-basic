@@ -11,4 +11,4 @@ var currentDate = date.getDate()
 console.log(currentDate);
 
 var currentDay = date.getDay()
-console.log(currentDay);
+console.log(currentDay);  //sunday 0 index ,, ans index e ashbe
