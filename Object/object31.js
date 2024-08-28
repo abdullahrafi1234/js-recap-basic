@@ -13,7 +13,7 @@ console.log(info)
 //-----adding a constructor---
 
 function Student(name, age, phone, language){
-    this.name= name;
+    this.name= name;   //jei name ta deoa hbe oita oporer parameter er modde set hobe
     this.age = age;
     this.phone = phone;
     this.language = language;
