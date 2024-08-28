@@ -12,8 +12,8 @@ console.log(info)
 
 //-----adding a constructor---
 
-function Student(name, age, phone, language){
-    this.name= name;   //jei name ta deoa hbe oita oporer parameter er modde set hobe
+function Student(name, age, phone, language) {
+    this.name = name;   //jei name ta deoa hbe oita oporer parameter er modde set hobe
     this.age = age;
     this.phone = phone;
     this.language = language;
@@ -25,3 +25,5 @@ var student3 = new Student('Shopia', 65, '016424895', ['ban', 'eng'])
 
 console.log(student1)
 console.log(student1.name)
+
+//-----adding a function in a constructor---
