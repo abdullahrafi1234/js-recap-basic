@@ -9,3 +9,12 @@ var info = {
 }
 
 console.log(info)
+
+//-----adding a constructor---
+
+function Student(name, age, phone, language){
+    this.name= name;
+    this.age = age;
+    this.phone = phone;
+    this.language = language;
+}
