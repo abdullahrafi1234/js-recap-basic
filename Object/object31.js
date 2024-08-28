@@ -1,1 +1,8 @@
 //------Object----
+
+var info = {
+    name: 'Abdullah Al Rafi Bhuiyan',
+    age: 22,
+    phone: '01722438145',
+    language: ['Ban', 'Eng', 'Turkey']
+}
