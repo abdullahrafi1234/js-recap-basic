@@ -18,3 +18,9 @@ function Student(name, age, phone, language){
     this.phone = phone;
     this.language = language;
 }
+
+var student1 = new Student('Anisul', 25, '017224548554', ['ban', 'eng'])
+var student2 = new Student('Ariful', 20, '017224548554', ['ban', 'eng'])
+var student3 = new Student('Shopia', 65, '016424895', ['ban', 'eng'])
+
+console.log()
