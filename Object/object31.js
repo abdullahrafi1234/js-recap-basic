@@ -1,4 +1,4 @@
-//------Object----
+//------How to Create Object----
 
 var info = {
     name: 'Abdullah Al Rafi Bhuiyan',
