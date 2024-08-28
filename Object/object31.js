@@ -35,3 +35,5 @@ var student3 = new Student('Shopia', 65, '016424895', ['ban', 'eng'])
 console.log(student1)
 console.log(student1.name)
 
+student2.display()
+
