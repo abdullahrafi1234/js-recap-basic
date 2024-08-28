@@ -1,3 +1,4 @@
 //getElementById-----------> 
 
-document.getElementById('heading1').innerHTML=('Hello')
+let myHeading = document.getElementById('heading1')
+myHeading.innerHTML = ('Hello')
