@@ -6,3 +6,5 @@ var info = {
     phone: '01722438145',
     language: ['Ban', 'Eng', 'Turkey']
 }
+
+console.log(info)
