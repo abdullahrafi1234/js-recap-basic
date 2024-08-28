@@ -1,4 +1,5 @@
 //------How to Create Object----
+//------How to print the value of an object----
 
 var info = {
     name: 'Abdullah Al Rafi Bhuiyan',
