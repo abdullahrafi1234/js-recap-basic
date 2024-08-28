@@ -12,6 +12,7 @@ paragraph2.innerHTML = ('Bye')
 
 //getElementsByTagName------------
 
+
 //getElementsByClassName ---------
 
 
