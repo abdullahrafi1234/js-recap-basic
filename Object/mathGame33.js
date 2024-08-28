@@ -5,4 +5,4 @@ var random = Math.floor(Math.random()*4+1)
 if(guessNumber == random){
     console.log("You have won")
 }
-else(console.log('You have lost, Your number was ' + guessNumber))
+else(console.log('You have lost, Your number was ' + guessNumber)) 
