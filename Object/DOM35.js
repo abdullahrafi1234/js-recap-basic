@@ -10,10 +10,10 @@ let paragraph2 = document.getElementById("para2")
 paragraph2.innerHTML = ('Bye')
 
 
-//getElementsByTagName------------
+//getElementsByTagName------------> 
 
 
-//getElementsByClassName ---------
+//getElementsByClassName --------->
 
 
 
