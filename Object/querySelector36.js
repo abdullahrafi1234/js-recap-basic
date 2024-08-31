@@ -3,4 +3,4 @@
 
 
 
-var query = document.querySelector('#p-id').innerHTML = "This is Changed"
+var query = document.querySelector('#p-id').innerHTML = "This is Query Changed"
