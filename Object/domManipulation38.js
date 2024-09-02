@@ -11,10 +11,9 @@ var heading = document.createElement('h1')
 var text = document.createTextNode('This is Added Heading')
 heading.appendChild(text)
 
-//added a element
-
+//added a element+
 var myDiv = document.getElementById('myDiv')
-myDiv.appendChild(heading)
+myDiv.appendChild(heading) //append child diye add kora hoy
 
 
 //remove element
