@@ -5,5 +5,7 @@
 
 let heading = document.createElement('h1')
 let text = document.createTextNode('This is Added Heading')
+heading.appendChild(text)
 
-var mydiv = document.getElementById('')
+var myDiv = document.getElementById('myDiv')
+myDiv.appendChild(heading)
