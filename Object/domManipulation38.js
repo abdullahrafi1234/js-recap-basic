@@ -19,4 +19,4 @@ myDiv.appendChild(heading) //append child diye add kora hoy
 //remove element
 
 var heading2 = document.getElementsByTagName('h2')[0]
-myDiv.removeChild(heading2)
+myDiv.removeChild(heading2) 
