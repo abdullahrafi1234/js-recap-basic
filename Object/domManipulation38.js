@@ -1,5 +1,9 @@
 // 1. Find / get
-//
+//create
+//add
+//remove
+
+
 
 //creating html elements ---
 
