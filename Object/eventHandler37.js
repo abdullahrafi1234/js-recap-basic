@@ -1,7 +1,8 @@
 //-------------- onClick -------------->
 
 function myMessage1(){
-    `<p>Yoy have clicked button one</p>`
+    alert('Hello Everyone button two')
+
 }
 
 //onclick er modde myMessage() call kore dite hbe 
