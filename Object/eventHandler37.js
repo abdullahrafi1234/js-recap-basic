@@ -13,7 +13,7 @@ function myMessage1(){
 //onclick er modde myMessage() call kore dite hbe 
 
 function myMessage2(){
-    alert('Hello Everyone button two')
+     document.getElementById('Paragraph') . innerHTML = 'You have clicked button number two'
 }
 
 function myPara(){
