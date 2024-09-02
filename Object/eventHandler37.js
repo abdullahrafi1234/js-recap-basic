@@ -7,3 +7,7 @@ function myMessage1(){
 function myMessage2(){
     alert('Hello Everyone button two')
 }
+
+function myPara(){
+    alert('You are clicked on paragraph')
+}
