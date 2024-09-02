@@ -1,3 +1,5 @@
+//-------------- onClick -------------->
+
 function myMessage1(){
     alert('Hello Everyone button one')
 }
