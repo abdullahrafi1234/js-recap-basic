@@ -1,7 +1,12 @@
 //-------------- onClick -------------->
 
+// function myMessage1(){
+//     alert('Hello Everyone button one')
+
+// }
+
 function myMessage1(){
-    alert('Hello Everyone button two')
+  document.getElementById('Paragraph') . innerHTML = 'You have clicked button number one'
 
 }
 
