@@ -8,8 +8,8 @@ function next() {
     // imgTag.src = (photos[count])
 
     if (count >= photos.length) {
-        counting = 0;
-        imgTag.src = photos[counting]
+        count = 0;
+        imgTag.src = photos[count]
     }
     else {
         imgTag.src = photos[count]
@@ -19,7 +19,13 @@ function next() {
 
 
 function prev() {
-
-    
+    count --;
+    if (count < 0){
+        count = photos.length-1
+        imgTag.src = photos[count]
+    }
+    else {
+        imgTag.src = photos[count]
+    }
 
 }
