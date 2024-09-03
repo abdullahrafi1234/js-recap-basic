@@ -6,11 +6,12 @@
 // }
 
 var myVar = document.getElementById('peraId')
-var myVar = document.getElementById('peraId2')
+var myVar2 = document.getElementById('peraId2')
 
 //how to add css style on js code
 function addStyle() {
     myVar.classList.add('para-style')
+    myVar2.classList.add('para-style')
 }
 
 
