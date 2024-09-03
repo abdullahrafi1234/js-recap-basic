@@ -4,6 +4,12 @@ var imgTag = document.querySelector('img')
 var count = 0
 
 function next() {
+    count++;
+    imgTag.src=(photos[count])
+
+    if(count<photos.length){
+         
+    }
 
 }
 
