@@ -11,3 +11,10 @@ function addStyle() {
 
     myVar.classList.add('para-style')
 }
+
+
+function removeStyle() {
+    var myVar = document.getElementById('peraId')
+
+    myVar.classList.add('para-style')
+}
