@@ -5,16 +5,15 @@
 //     myVar.style.fontSize = '40px'
 // }
 
+var myVar = document.getElementById('peraId')
+var myVar = document.getElementById('peraId2')
+
 //how to add css style on js code
 function addStyle() {
-    var myVar = document.getElementById('peraId')
-
     myVar.classList.add('para-style')
 }
 
 
 function removeStyle() {
-    var myVar = document.getElementById('peraId')
-
     myVar.classList.remove('para-style')
 }
