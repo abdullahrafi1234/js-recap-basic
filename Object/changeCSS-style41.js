@@ -16,5 +16,5 @@ function addStyle() {
 function removeStyle() {
     var myVar = document.getElementById('peraId')
 
-    myVar.classList.add('para-style')
+    myVar.classList.remove('para-style')
 }
