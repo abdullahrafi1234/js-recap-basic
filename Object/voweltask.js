@@ -1,4 +1,4 @@
-var checkVowel = ['a', 'e', 'i', 'o', 'u']
+//Way 1
 var icon = prompt('Enter a letter')
 
 if(icon == 'a', 'e', 'i', 'o', 'u'){
