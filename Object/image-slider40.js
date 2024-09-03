@@ -5,15 +5,21 @@ var count = 0
 
 function next() {
     count++;
-    imgTag.src=(photos[count])
+    // imgTag.src = (photos[count])
 
-    if(count<photos.length){
-         
+    if (count >= photos.length) {
+        counting = 0;
+        imgTag.src = photos[counting]
+    }
+    else {
+        imgTag.src = photos[count]
     }
 
 }
 
 
 function prev() {
+
+    
 
 }
