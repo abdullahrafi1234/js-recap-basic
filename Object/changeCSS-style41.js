@@ -6,5 +6,5 @@ function addStyle() {
 }
 
 function removeStyle () {
-    
+    var myVar = document.getElementById('peraId')
 }
