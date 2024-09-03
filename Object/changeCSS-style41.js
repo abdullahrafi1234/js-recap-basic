@@ -1,3 +1,3 @@
 function addStyle() {
-    document.getElementById('peraId')
+    var myVar = document.getElementById('peraId')
 }
