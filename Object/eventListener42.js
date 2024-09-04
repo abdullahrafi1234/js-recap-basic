@@ -1,6 +1,6 @@
 //Basic event listener 
 
-document.getElementById('button').addEventListener('click', myFunction )
+document.getElementById('button').addEventListener('click', myFunction)
 
 function myFunction() {
     alert('Clicked')
@@ -8,4 +8,10 @@ function myFunction() {
 
 //another way with anonymous function
 
-document.getElementById('button2').addEventListener('click', function(){alert('Clicked by me')})
+document.getElementById('button2').addEventListener('click', function () { alert('Clicked by me') })
+
+
+var myVar = document.getElementById('my-style')
+myVar.addEventListener('mouseover', function () {
+    myVar.classList.add('my-styles')
+})
