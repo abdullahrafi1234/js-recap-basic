@@ -17,7 +17,7 @@ for (i = 0; i < 3; i++) {
             case 'Button 3':
                 var audio = new Audio('sounds/sound3.mp3')
                 audio.play()
-                break;
+                break; 
         }
 
     })
