@@ -7,3 +7,5 @@ function myFunction() {
 }
 
 //another way with anonymus function
+
+document.getElementById('button2').addEventListener('click', function(){alert('Clicked by me')})
