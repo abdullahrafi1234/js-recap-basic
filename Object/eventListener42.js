@@ -6,6 +6,6 @@ function myFunction() {
     alert('Clicked')
 }
 
-//another way with anonymus function
+//another way with anonymous function
 
 document.getElementById('button2').addEventListener('click', function(){alert('Clicked by me')})
