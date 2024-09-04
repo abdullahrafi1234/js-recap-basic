@@ -16,7 +16,7 @@ var myVar = document.getElementById('my-style')
 myVar.addEventListener('mouseover', function () {
     myVar.classList.add('my-styles')
 }) 
-myVar.addEventListener('mouseover', function () {
-    myVar.classList.add('my-styles')
+myVar.addEventListener('mouseout', function () {
+    myVar.classList.remove('my-styles')
 }) 
 
