@@ -17,27 +17,30 @@ for (i = 0; i < 3; i++) {
             case 'Button 3':
                 var audio = new Audio('sounds/sound3.mp3')
                 audio.play()
-                break; 
+                break;
         }
     })
 }
 
 
 
-var num1 = 50
-var num2 = 45;
 
-var result;
+var age = 60;   //age boshabo ekhane
+var isStudent = false;  //student kina dekhar jachai korar jonno
+var price = 800;  //ticket er dam
 
-if (num1>num2){
-    console.log(num1*2)
-}
-else{
-    console.log(num1+num2)
-}
-
-
-var age = 15;
- if(age < 10){
+if (age < 10) {
     console.log('Free')
- }
+}
+
+else if (isStudent == true) {
+    console.log(price / 2)  //50%
+}
+
+else if (age >= 60) {
+    var calculation = price * (15 / 100)
+    var total = price - calculation
+    console.log(total)   //easy vabe likhar jonno oikik niom e korlam
+}
+
+else (console.log('Price: ' + price))
