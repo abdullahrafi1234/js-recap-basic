@@ -25,9 +25,9 @@ for (i = 0; i < 3; i++) {
 
 
 
-var age = 60;   //age boshabo ekhane
-var isStudent = false;  //student kina dekhar jachai korar jonno
-var price = 800;  //ticket er dam
+var age = 60;  //age boshabo ekhane
+var isStudent = false;   //student kina dekhar jachai korar jonno
+var price = 800;   //ticket er dam
 
 if (age < 10) {
     console.log('Free')
