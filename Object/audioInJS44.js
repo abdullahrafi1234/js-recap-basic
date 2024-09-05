@@ -22,7 +22,9 @@ for (i = 0; i < 3; i++) {
     })
 }
 
-var num1 = 25
+
+
+var num1 = 50
 var num2 = 45;
 
 var result;
@@ -33,3 +35,9 @@ if (num1>num2){
 else{
     console.log(num1+num2)
 }
+
+
+var age = 15;
+ if(age < 10){
+    console.log('Free')
+ }
