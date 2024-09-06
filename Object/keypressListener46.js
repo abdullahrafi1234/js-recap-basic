@@ -17,11 +17,12 @@ document.addEventListener('keypress', function(event){
     playAnimation(text)
 })
 
+
 var count = 0;
 document.getElementById('area').addEventListener('keypress', function(event){
     count ++;
     var keypress = event.key
-    document.querySelector('p').innerHTML = 'You have pressed '+ keypress
+    document.querySelector('p').innerHTML = 'You have pressed '+ count
 })
 
 
