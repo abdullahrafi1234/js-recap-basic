@@ -11,13 +11,18 @@
 // 5. ClipboardEvent Object
 // 6. DragEvent Object
 
+
+
+
 function prepareJuice(fruit){
     console.log('Juice made from '+ fruit)
-    const glass = fruit //poured into a glass
-    return glass   //return kore dile ans ta nicher serviceJuice variable er modde jaia thake tokhn console.log e ans dekha jay
+    const glass = fruit 
+    console.log(glass + ' Juice Poured into a glass')
+    return glass 
+      //return kore dile ans ta nicher serviceJuice variable er modde jaia thake tokhn console.log e ans dekha jay
 
 }
 
-var serviceJuice= prepareJuice('apple')
-console.log(serviceJuice)
+var serviceJuice= prepareJuice('Mango')
+console.log('This is your '+serviceJuice + ' Juice')
 
