@@ -18,7 +18,7 @@ document.addEventListener('keypress', function(event){
 })
 
 
-document.addEventListener('keypress', function(event){
+document.getElementById('area').addEventListener('keypress', function(event){
     var keypress = event.key
     document.querySelector('p').innerHTML = 'You have pressed '+ keypress
 })
