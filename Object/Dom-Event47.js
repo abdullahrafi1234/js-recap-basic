@@ -7,3 +7,4 @@
 // 3. KeyboardEvent Object
 // 4. FocusEvent Object
 // 5. ClipboardEvent Object
+// 6. DragEvent Object
