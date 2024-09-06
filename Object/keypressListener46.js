@@ -10,6 +10,18 @@ for (i = 0; i < 3; i++) {
 }
 
 
+//keypress listener
+document.addEventListener('keypress', function(event){
+    var text = event.key
+    audioPlay(text)
+    playAnimation(text)
+})
+
+
+
+
+
+
 //same work with function
 function audioPlay(text) {
     switch (text) {
