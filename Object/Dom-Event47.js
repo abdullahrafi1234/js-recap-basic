@@ -4,3 +4,4 @@
     //-- properties: type, target, preventDefault()
 
 // 2. MouseEvent Object
+// 3. KeyboardEvent Object
