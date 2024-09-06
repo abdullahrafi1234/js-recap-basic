@@ -17,6 +17,11 @@ document.addEventListener('keypress', function(event){
     playAnimation(text)
 })
 
+document.addEventListener('keypress', function(event){
+    var keypress = event.key
+    document.querySelector('p').innerHTML = 'You have pressed '+ keypress
+})
+
 
 
 
