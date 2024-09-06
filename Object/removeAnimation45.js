@@ -31,4 +31,9 @@ function audioPlay(text) {
 function playAnimation(text){
     var selectButton = document.querySelector('.'+text)
     selectButton.classList.add('animation')
+
+    //remove hoye jabe ei time er por
+    setTimeout(function(){
+        selectButton.classList.remove('animation')
+    }, 500)
 }
