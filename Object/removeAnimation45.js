@@ -3,8 +3,9 @@
 for (i = 0; i < 3; i++) {
     document.querySelectorAll('.myButton')[i].addEventListener('click', function () {
         var text = this.innerHTML
-        console.log(text)
+        // console.log(text)
         audioPlay(text)
+        playAnimation(text)
     })
 }
 
@@ -27,6 +28,7 @@ function audioPlay(text) {
     }
 }
 
-function animation(){
-
+function playAnimation(text){
+    var selectButton = document.querySelector('.'+text)
+    selectButton.classList.add('animation')
 }
