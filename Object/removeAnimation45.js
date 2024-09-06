@@ -12,17 +12,21 @@ for (i = 0; i < 3; i++) {
 //same work with function
 function audioPlay(text) {
     switch (text) {
-        case 'Button 1':
+        case 'a':
             var audio = new Audio('sounds/sound1.mp3')
             audio.play()
             break;
-        case 'Button 2':
+        case 'b':
             var audio = new Audio('sounds/sound2.mp3')
             audio.play()
             break;
-        case 'Button 3':
+        case 'c':
             var audio = new Audio('sounds/sound3.mp3')
             audio.play()
             break;
     }
+}
+
+function animation(){
+
 }
