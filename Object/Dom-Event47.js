@@ -1,3 +1,3 @@
 // DOM events
 // 1. Event Object
-    //-- event type: change, submit, load, unload, open, play, canplay, pause, playing, progress, 
+    //-- event type: change, submit, load, unload, open, play, canplay, pause, playing, progress, ended, resize, scroll, toggle etc.
