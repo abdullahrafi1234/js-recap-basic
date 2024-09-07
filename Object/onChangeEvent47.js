@@ -14,7 +14,7 @@
 //where we use this type of event
 //input tag
 //select tag
-//area tag
+//textarea tag
 
 
 
