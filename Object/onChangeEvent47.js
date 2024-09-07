@@ -17,6 +17,35 @@
 //textarea tag
 
 
+///HTML code here
+
+// <!-- <label for="name"> Name:
+// <input type="text" name="name" class="input-class" id="input-id">
+// </label> -->
+
+// <!-- <div>
+// <h2>Programming: </h2>
+// <label for="program">
+//     <input type="checkbox" name="program" id="html" value="HTML"> HTML
+// </label>
+// <label for="css">
+//     <input type="checkbox" name="program" id="css" value="Css"> CSS
+// </label>
+// </div>
+// -->
+// <label for="">Department: </label>
+// <select name="department" id="department">
+// <option value="cse">CSE</option>
+// <option value="eee">EEE</option>
+// <option value="llb">LLB</option>
+// </select>
+
+
+
+
+
+
+
 // const input = document.querySelector('input')
 // input.addEventListener('change', changeHandler)
 
