@@ -26,15 +26,20 @@
 // }
 
 
-const programme = document.querySelectorAll('input[name=program]')
-console.log(programme)
-// programme.addEventListener('change')
-// console.log(programme)
+const programs = document.querySelectorAll('input[name=program]')
+console.log(programs)
 
-// function changeHandler(e){
-//     // console.log(e.target)
-//     console.log(e.target.value)
-// }
+Array.from(programs).map((program) => {
+    console.log(program)
+    program.addEventListener('change', programHandler)
+})
+
+function programHandler(e){
+    // console.log(e.target)
+    if(e.target.checked){
+        console.log(e.target.value)
+    }
+}
 
 
 
