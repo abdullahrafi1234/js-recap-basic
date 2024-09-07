@@ -17,22 +17,24 @@
 //textarea tag
 
 
-const input = document.querySelector('input')
-input.addEventListener('change', changeHandler)
+// const input = document.querySelector('input')
+// input.addEventListener('change', changeHandler)
 
-function changeHandler(e){
-    // console.log(e.target)
-    console.log(e.target.value)
-}
+// function changeHandler(e){
+//     // console.log(e.target)
+//     console.log(e.target.value)
+// }
 
 
-const checkbox = document.querySelector('input')
-input.addEventListener('change', changeHandler)
+const programme = document.querySelectorAll('input[name=program]')
+console.log(programme)
+// programme.addEventListener('change')
+// console.log(programme)
 
-function changeHandler(e){
-    // console.log(e.target)
-    console.log(e.target.value)
-}
+// function changeHandler(e){
+//     // console.log(e.target)
+//     console.log(e.target.value)
+// }
 
 
 
