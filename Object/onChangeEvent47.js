@@ -43,6 +43,7 @@ function programHandler(e){
 
 
 const department = document.querySelector('#department')
+console.log(department)
 department.addEventListener('change', selectHandler)
 
 function selectHandler(e){
