@@ -11,7 +11,10 @@
 // 5. ClipboardEvent Object
 // 6. DragEvent Object
 
-
+//where we use this type of event
+//input tag
+//select tag
+//area tag
 
 
 
