@@ -42,6 +42,15 @@ function programHandler(e){
 }
 
 
+const department = document.querySelector('#department')
+department.addEventListener('change', selectHandler)
+
+function selectHandler(e){
+    console.log(e)
+    console.log(e.target.value)
+}
+
+
 
 
 
