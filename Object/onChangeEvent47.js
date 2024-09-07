@@ -14,6 +14,13 @@
 
 
 
+
+
+
+
+
+
+
 function prepareJuice(fruit) {
     console.log('Juice made from ' + fruit)
 
