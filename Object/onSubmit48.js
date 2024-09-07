@@ -23,3 +23,29 @@ function formHandler(e) {
     email.value = '';
     password.value = '';
 }
+
+
+
+//     HTMl Code --------------
+{/* <form action="">
+
+<div>
+    <label for="name">Name:
+        <input type="text" name="name" id="name">
+    </label>
+</div>
+<div>
+    <label for="email">Email:
+        <input type="email" name="email" id="email">
+    </label>
+</div>
+<div>
+    <label for="name">Password:
+        <input type="password" name="password" id="password">
+    </label>
+</div>
+<div>
+    <input type="submit" value="signup">
+</div>
+
+</form> */}
