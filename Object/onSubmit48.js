@@ -12,10 +12,14 @@ form.addEventListener('submit', formHandler)
 function formHandler(e) {
     e.preventDefault()
     console.log(name.value)
-    const user ={
+    const user = {
         name: name.value,
         email: email.value,
-        password : password.value
+        password: password.value
     }
     console.log(user)
+
+    name.value = '';
+    email.value = '';
+    password.value = '';
 }
