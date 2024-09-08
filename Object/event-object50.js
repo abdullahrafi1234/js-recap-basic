@@ -1,7 +1,7 @@
 //DOM events, Event Objects , 
-// 1. scroll
-// 2. resize
-// 3. load, unload
+// 1.  load, unload
+// 2. scroll
+// 3. resize
 // 4. toggle
 
 window.addEventListener('load', function(){
@@ -13,4 +13,12 @@ window.addEventListener('unload', function(){
 
 window.addEventListener('scroll', function(){
     console.log('scrolling')
+})
+
+window.addEventListener('resize', function(){
+    console.log('resize')
+    const width = window.outerWidth;
+    const height = window.outerHeight;
+
+    console.log(`height: ${height}, width: ${width}`)
 })
