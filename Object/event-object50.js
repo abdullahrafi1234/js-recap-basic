@@ -10,3 +10,7 @@ window.addEventListener('load', function(){
 window.addEventListener('unload', function(){
     console.log('unload')
 })
+
+window.addEventListener('scroll', function(){
+    console.log('scrolling')
+})
