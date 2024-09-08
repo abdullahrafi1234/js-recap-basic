@@ -21,4 +21,6 @@ video.addEventListener('playing', function(){
 video.addEventListener('ended', function(){
     console.log('ended')
 })
-video./
+// video.addEventListener('progress', function(){
+//     console.log('progress')
+// })
