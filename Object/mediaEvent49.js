@@ -18,6 +18,6 @@ video.addEventListener('playing', function(){
 video.addEventListener('ended', function(){
     console.log('Thanks for watching')
 })
-// video.addEventListener('progress', function(){
-//     console.log('progress')
-// })
+video.addEventListener('volumechange', function(){
+    console.log('volumechange')   //volume change korle call hbe
+}) 
