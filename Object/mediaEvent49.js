@@ -15,9 +15,6 @@ video.addEventListener('pause', function(){
 video.addEventListener('playing', function(){
     console.log('playing')
 })
-// video.addEventListener('progress', function(){
-//     console.log('progress')
-// })
 video.addEventListener('ended', function(){
     console.log('Thanks for watching')
 })
