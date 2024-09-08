@@ -3,3 +3,7 @@
 // 2. resize
 // 3. load, unload
 // 4. toggle
+
+window.addEventListener('load', function(){
+    console.log('load')
+})
