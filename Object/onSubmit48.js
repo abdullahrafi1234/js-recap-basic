@@ -28,7 +28,6 @@ function formHandler(e) {
 
 //     HTMl Code --------------
 {/* <form action="">
-
 <div>
     <label for="name">Name:
         <input type="text" name="name" id="name">
@@ -47,5 +46,4 @@ function formHandler(e) {
 <div>
     <input type="submit" value="signup">
 </div>
-
 </form> */}
