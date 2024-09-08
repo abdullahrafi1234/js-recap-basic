@@ -19,7 +19,7 @@ video.addEventListener('playing', function(){
 //     console.log('progress')
 // })
 video.addEventListener('ended', function(){
-    console.log('ended')
+    console.log('Thanks for watching')
 })
 // video.addEventListener('progress', function(){
 //     console.log('progress')
