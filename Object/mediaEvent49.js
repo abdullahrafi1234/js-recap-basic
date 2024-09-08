@@ -21,3 +21,12 @@ video.addEventListener('ended', function(){
 video.addEventListener('volumechange', function(){
     console.log('volumechange')   //volume change korle call hbe
 }) 
+
+// -----HTML CODE ----
+
+{/* <video width="600px" controls muted>
+<!-- controls dile video er play pause ei option chole ashe, and loop use korle video sesh hole abr notun kore suro hoy. -->
+ <!-- muted dile surote mute thakbe -->
+<source src="videos/video1.mp4" type="video/mp4">
+Your Browser does not support html video
+</video> */}
