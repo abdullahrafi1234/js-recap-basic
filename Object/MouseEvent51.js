@@ -10,8 +10,9 @@
 
 const div = document.querySelector('div')
 
-div.addEventListener('click', function(){
+div.addEventListener('click', function(e){
     console.log('clicked')
+    console.log(e.target);
 })
 
 
