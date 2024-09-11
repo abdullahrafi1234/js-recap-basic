@@ -24,4 +24,6 @@ div{
     background-color: blueviolet;
     height: 400px;
     width: 400px;
+    font-size: 20px;
+    color: red;
 }
