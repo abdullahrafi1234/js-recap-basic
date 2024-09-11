@@ -32,6 +32,8 @@ div.addEventListener('mouseleave', function () {
 div.addEventListener('mouseover', function () {
     console.log('mouseover')
 })
-div.addEventListener('mousemove', function () {
-    console.log('mousemove')
+div.addEventListener('mousemove', function (e) {
+    console.log('clientX= ' + e.clientX)
+    console.log('clientY= ' + e.clientY)
+    console.log('offset X= ' + e.offsetX)
 })
