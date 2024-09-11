@@ -10,9 +10,11 @@
 
 const div = document.querySelector('div')
 
-// div.addEventListener('click', function(){
-//     console.log('clicked')
-// })
+div.addEventListener('click', function(){
+    console.log('clicked')
+})
+
+
 // div.addEventListener('dblclick', function(){
 //     console.log('clicked double ')
 // })
@@ -22,18 +24,18 @@ const div = document.querySelector('div')
 // div.addEventListener('mouseup', function(){
 //     console.log('mouse up is mouse click sere dibo')
 // })
-div.addEventListener('mouseenter', function () {
-    console.log('mouseenter mane oi element e mouse neoa')
-})
-div.addEventListener('mouseleave', function () {
-    console.log('mouseleave mane oi element theke mouse ber kora ')
-})
+// div.addEventListener('mouseenter', function () {
+//     console.log('mouseenter mane oi element e mouse neoa')
+// })
+// div.addEventListener('mouseleave', function () {
+//     console.log('mouseleave mane oi element theke mouse ber kora ')
+// })
 
-div.addEventListener('mouseover', function () {
-    console.log('mouseover')
-})
-div.addEventListener('mousemove', function (e) {
-    console.log('clientX= ' + e.clientX)
-    console.log('clientY= ' + e.clientY)
-    console.log('offset X= ' + e.offsetX)
-})
+// div.addEventListener('mouseover', function () {
+//     console.log('mouseover')
+// })
+// div.addEventListener('mousemove', function (e) {
+//     console.log('clientX= ' + e.clientX)
+//     console.log('clientY= ' + e.clientY)
+//     console.log('offset X= ' + e.offsetX)
+// })
