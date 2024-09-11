@@ -5,14 +5,17 @@
 // 4. some properties - key, keyCode, code, shiftKey, cltKey, repeat
 
 var div = document.querySelector('textarea')
-div.addEventListener('keydown', function(){
-    console.log('keydown hosse keyboard e click kora')
-})
+// div.addEventListener('keydown', function(){
+//     console.log('keydown hosse keyboard e click kora')
+// })
 
-div.addEventListener('keyup', function(){
+div.addEventListener('keyup', function(e){
     console.log('keyup hosse keyboard e click sere deoa')
+    // console.log(e.keyCode);
+    // console.log(e.code);
+    console.log(e.shiftKey);
 })
 
-div.addEventListener('keypress', function(){
-    console.log('keypress hosse just pess kora ')
-})
+// div.addEventListener('keypress', function(){
+//     console.log('keypress hosse just pess kora ')
+// })
