@@ -18,15 +18,19 @@ div.addEventListener('click', function(){
 // div.addEventListener('dblclick', function(){
 //     console.log('clicked double ')
 // })
+
 // div.addEventListener('mousedown', function(){
 //     console.log('mouse down is mouse clicked')
 // })
+
 // div.addEventListener('mouseup', function(){
 //     console.log('mouse up is mouse click sere dibo')
 // })
+
 // div.addEventListener('mouseenter', function () {
 //     console.log('mouseenter mane oi element e mouse neoa')
 // })
+
 // div.addEventListener('mouseleave', function () {
 //     console.log('mouseleave mane oi element theke mouse ber kora ')
 // })
