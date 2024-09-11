@@ -6,9 +6,13 @@
 
 var div = document.querySelector('textarea')
 div.addEventListener('keydown', function(){
-    console.log('keydown')
+    console.log('keydown hosse keyboard e click kora')
 })
 
 div.addEventListener('keyup', function(){
-    console.log('keydown')
+    console.log('keyup hosse keyboard e click sere deoa')
+})
+
+div.addEventListener('keypress', function(){
+    console.log('keypress hosse just pess kora ')
 })
