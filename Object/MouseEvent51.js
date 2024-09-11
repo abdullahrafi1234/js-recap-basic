@@ -1,7 +1,7 @@
-// 1. click
-// 2. dbclick
-// 3. 
-// 4. onmousedup
+// 1. onclick
+// 2. ondblclick
+// 3. onmousedown
+// 4. onmouseup
 // 5. onmouseenter
 // 6. onmouseleave
 // 7. onmousemove
@@ -16,6 +16,6 @@ div.addEventListener('click', function(){
 div.addEventListener('dblclick', function(){
     console.log('clicked double ')
 })
-div.addEventListener('dblclick', function(){
+div.addEventListener('mo', function(){
     console.log('clicked double ')
 })
