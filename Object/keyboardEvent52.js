@@ -14,7 +14,7 @@ div.addEventListener('keyup', function(e){
     // console.log(e.keyCode);
     // console.log(e.code);
     console.log(e.shiftKey);
-    console.log(e.target);
+    // console.log(e.target);
 })
 
 // div.addEventListener('keypress', function(){
