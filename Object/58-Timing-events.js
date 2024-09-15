@@ -4,6 +4,13 @@
 // setInterval() -----> ekta nirdishto time por por kaj ta repeat hbe
 
 
-setTimeout(()=> {
-    console.log('hi');
-}, 2000)
+// setTimeout(()=> {
+//     console.log('hi');
+// }, 2000)
+
+
+setTimeout(display, 2000)
+
+function display() {
+    console.log('display function')
+}
