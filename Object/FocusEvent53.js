@@ -8,6 +8,19 @@
 
 
 const input = document.querySelector('input')
+console.log(input)
+
+input.addEventListener('blur', function(){
+    console.log('blur is occurred')
+})
+
+input.addEventListener('blur', function(){
+    console.log('blur is occurred')
+})
+
+input.addEventListener('blur', function(){
+    console.log('blur is occurred')
+})
 
 input.addEventListener('blur', function(){
     console.log('blur is occurred')
