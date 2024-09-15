@@ -1,7 +1,9 @@
- //default and rest parameter
+//default and rest parameter
 
- "use strict"
+"use strict"
 
- function message(){
-    console.log('welcome')
- }
+function message(text) {
+    console.log(text)
+}
+
+message('I love rainy day')
