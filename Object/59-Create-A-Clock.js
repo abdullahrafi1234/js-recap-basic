@@ -52,4 +52,4 @@ lastName= 'buiyan'
 
 // 5. object and array with const
 // 6. == vs ===
-// 7. access dom less  (joto kom access kora jay karon beshi access korle slow hoye jay) //--- children diye khuje ber korte hbe
+// 7. access dom less ------>  (joto kom access kora jay karon beshi access korle slow hoye jay) //--- children diye khuje ber korte hbe
