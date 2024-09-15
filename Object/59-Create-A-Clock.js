@@ -25,3 +25,14 @@ function formatTime(value) {
     }
     return value
 }
+
+
+// Java Script Best Practice
+
+// 1. use camelCase for naming
+// 2. variable declaration on top and initialize
+// 3. avoid unnecessary variable
+// 4. switch , case, default
+// 5. object and array with const
+// 6. == vs ===
+// 7. access dom less
