@@ -24,4 +24,22 @@
 
 // Prompt box 
 
+function welcomeMessage() {
+
+    var h1 = document.createElement('h1')
+    let text;
+
+
+    var name = prompt('Enter Your name')
+
+    if (name == null || name == '') {
+        text = 'no name found'
+    }
+    else {
+        text = name;
+    }
+
+}
+
+welcomeMessage()
 
