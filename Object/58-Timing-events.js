@@ -17,3 +17,15 @@ function display() {
 
 const saveButton = document.querySelector('.saveButton')
 const message = document.querySelector('.message')
+
+saveButton.addEventListener('click', saveUser)
+
+function saveUser(){
+    message.textContent = 'User registration successful'
+    setTimeout(()=> {
+        message.textContent = ''
+    }, 2000)
+}
+
+
+
