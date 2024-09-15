@@ -7,15 +7,16 @@ console.log(window);
 // confirm box
 // confirm('Are you sure')
 
-function deleteSomething(){
-    let value = confirm('Do you want to delete?')
+// function deleteSomething(){
+//     let value = confirm('Do you want to delete?')
 
-    if (value){
-        console.log('Deleted')
-    }
-    else{
-        console.log('Not deleted')
-    }
-}
+//     if (value){
+//         console.log('Deleted')
+//     }
+//     else{
+//         console.log('Not deleted')
+//     }
+// }
 
-deleteSomething();
+// deleteSomething();
+
