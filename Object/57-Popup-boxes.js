@@ -39,6 +39,9 @@ function welcomeMessage() {
         text = name;
     }
 
+    var textNode = document.createTextNode(text)
+    textNode.appendChild()
+
 }
 
 welcomeMessage()
