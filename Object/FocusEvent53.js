@@ -14,14 +14,14 @@ input.addEventListener('blur', function(){
     console.log('blur is occurred')
 })
 
-input.addEventListener('blur', function(){
-    console.log('blur is occurred')
+input.addEventListener('focus', function(){
+    console.log('focus is occurred')
 })
 
-input.addEventListener('blur', function(){
-    console.log('blur is occurred')
+input.addEventListener('focusin', function(){
+    console.log('focusin is occurred')
 })
 
-input.addEventListener('blur', function(){
-    console.log('blur is occurred')
+input.addEventListener('focusout', function(){
+    console.log('focusout is occurred')
 })
