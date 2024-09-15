@@ -1,3 +1,5 @@
 // hoisting and strict mode
 
-console.log('hello');
+x = 20;
+console.log(x);
+var x ; // declre pore korleo, eivabe use kora jabe kinto let diye kora jabena
