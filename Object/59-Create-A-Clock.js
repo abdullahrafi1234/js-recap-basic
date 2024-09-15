@@ -10,5 +10,5 @@ function startClock(){
     let second = date.getSeconds();
     let time ='Time: ' + hours + ':'+ minutes + ':' + second
 
-    message.textContent = time
+    message.textContent = time;
 }
