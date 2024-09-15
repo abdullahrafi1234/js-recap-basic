@@ -29,3 +29,11 @@ const message = document.querySelector('.message')
 
 saveButton.addEventListener('click', displayCount)
 
+function displayCount(){
+    let count = 0;
+    message.textContent = count
+
+    setInterval(()=> {
+        
+    })
+}
