@@ -14,3 +14,6 @@ setTimeout(display, 2000)
 function display() {
     console.log('display function')
 }
+
+const saveButton = document.querySelector('.saveButton')
+const message = document.querySelector('.message')
