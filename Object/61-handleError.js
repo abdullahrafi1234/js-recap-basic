@@ -18,3 +18,5 @@ finally{
     //je kono obsthay code kaj korbe
     alert('bye')
 }
+
+
