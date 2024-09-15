@@ -15,13 +15,15 @@ input.addEventListener('blur', function(){
 })
 
 input.addEventListener('focus', function(){
-    console.log('focus is occurred')
+    // console.log('focus is occurred')
+    input.style.backgroundColor = 'orange'
+    input.style.padding = '20px'
 })
 
-input.addEventListener('focusin', function(){
-    console.log('focusin is occurred')
-})
+// input.addEventListener('focusin', function(){
+//     console.log('focusin is occurred')
+// })
 
-input.addEventListener('focusout', function(){
-    console.log('focusout is occurred')
-})
+// input.addEventListener('focusout', function(){
+//     console.log('focusout is occurred')
+// })
