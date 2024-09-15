@@ -1,0 +1,2 @@
+// hoisting and strict mode
+
