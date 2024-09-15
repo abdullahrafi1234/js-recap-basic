@@ -40,7 +40,8 @@ function welcomeMessage() {
     }
 
     var textNode = document.createTextNode(text)
-    textNode.appendChild()
+    h1.appendChild(textNode)
+    document.body.appendChild(h1)
 
 }
 
