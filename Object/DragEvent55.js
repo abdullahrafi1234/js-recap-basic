@@ -9,7 +9,18 @@
 
 
 const p = document.querySelector('p')
+const div = document.querySelector('div')
 
-p.addEventListener('drag', function(){
-    console.log('on drag called')
+p.addEventListener('dragstart', function(e){
+    e.dataTransfer.setData('Text', e.target.id)
+})
+
+div.addEventListener('dragover', function(e){
+    e.preventDefault()
+})
+
+div.addEventListener('drop', function(e){
+    let id = e.dataTransfer.getData('Text');
+    console.log(id)
+    div.appendChild(document.getElementById(id))
 })
