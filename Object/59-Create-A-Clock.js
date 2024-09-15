@@ -11,4 +11,6 @@ function startClock(){
     let time ='Time: ' + hours + ':'+ minutes + ':' + second
 
     message.textContent = time;
+
+    setInterval(startClock, 1000)
 }
