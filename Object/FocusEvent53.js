@@ -6,3 +6,9 @@
 // 3. onfocusin
 // 4. onfocusout
 
+
+const input = document.querySelector('input')
+
+input.addEventListener('blur', function(){
+    console.log('blur is occurred')
+})
