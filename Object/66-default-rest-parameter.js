@@ -2,8 +2,10 @@
 
 "use strict"
 
-function message(text) {
+function message(text = 'Hello this is default parameter') {
     console.log(text)
 }
 
+
+message()
 message('I love rainy day')
