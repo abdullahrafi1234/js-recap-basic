@@ -30,9 +30,26 @@ function formatTime(value) {
 // Java Script Best Practice
 
 // 1. use camelCase for naming
+let firstName = 'rafi';
+
 // 2. variable declaration on top and initialize
+let userInfo, lastName, fullName
+
+firstName = 'anis'
+lastName= 'buiyan'
+
 // 3. avoid unnecessary variable
 // 4. switch , case, default
+
+    switch (key) {
+        case value:
+            
+            break;
+    
+        default:
+            break;
+    }
+
 // 5. object and array with const
 // 6. == vs ===
 // 7. access dom less
