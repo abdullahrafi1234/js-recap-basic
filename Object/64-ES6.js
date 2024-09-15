@@ -1,5 +1,5 @@
 // let, const  
-//es6 string concatenate with backtick
+// Template Literals (es6 string concatenate with backtick)
 
 
 //function
