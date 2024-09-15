@@ -13,8 +13,8 @@ div.addEventListener('keyup', function(e){
     console.log('keyup hosse keyboard e click sere deoa')
     // console.log(e.keyCode);
     // console.log(e.code);
-    console.log(e.shiftKey);
-    // console.log(e.target);
+    // console.log(e.shiftKey);
+    console.log(e.ctrlKey);
 })
 
 // div.addEventListener('keypress', function(){
