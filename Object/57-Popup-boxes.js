@@ -4,7 +4,8 @@
 // console.log(window);
 // alert('this is alert BOM')
 
-// confirm box
+// Confirm box
+
 // confirm('Are you sure')
 
 // function deleteSomething(){
@@ -19,4 +20,8 @@
 // }
 
 // deleteSomething();
+
+
+// Prompt box 
+
 
