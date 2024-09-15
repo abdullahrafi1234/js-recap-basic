@@ -1,1 +1,1 @@
-// Spread Operator
+// S pread Operator
