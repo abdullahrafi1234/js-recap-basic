@@ -1,3 +1,4 @@
 // JS BOM 
 // Js Timing events methods
-// setTimeOut(), setInterval()
+// setTimeOut() ----->  ekta nirdishto time por kaj ta suro hbe
+// setInterval() -----> ekta nirdishto time por por kaj ta repeat hbe
