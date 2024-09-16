@@ -11,5 +11,6 @@ const objects = {
     cgpa: 3.54
 }
 for(let object in objects){  // for in use kora hoy object er modde
-    console.log(object)
+    // console.log(object)
+    console.log(`${object}: ${objects[object]}`)
 }
