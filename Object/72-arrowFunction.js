@@ -10,5 +10,6 @@ myFunction()
 
 //Arrow Function
 const displayFunction = () => {
-
+    console.log('this is arrow function');
 }
+displayFunction()
