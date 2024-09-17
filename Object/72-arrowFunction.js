@@ -15,6 +15,5 @@ const displayFunction = () => {
 displayFunction()
 
 
-const returnFun = () =>
-    'Hi i am message'
+const returnFun = () => 'Hi i am message'  //return korte hoyna
 console.log(returnFun())
