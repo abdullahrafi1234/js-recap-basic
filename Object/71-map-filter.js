@@ -14,5 +14,13 @@ numbers.map(number => {
 //     return age > 18
 // }
 
-const number1 = numbers.filter(number => number > 20)
-console.log(number1)
+const result = numbers.filter(function(number){
+    return number>18
+})
+console.log(result);
+
+
+//another way for filter function
+
+// const number1 = numbers.filter(number => number > 20)
+// console.log(number1)
