@@ -3,3 +3,5 @@
 function myFunction(){
     console.log('this is my old function');
 }
+
+myFunction()
