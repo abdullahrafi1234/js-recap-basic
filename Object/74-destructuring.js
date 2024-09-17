@@ -1,4 +1,40 @@
 // Destructuring array and objects
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//    html code
+{/* <h1 id="heading">My github delete confirmation</h1>
+<input type="text" name="" id="dlt-input" placeholder="please type delete">
+<button id="dlt-btn" disabled>Delete</button> */}
+
+
+
+
+
 document.getElementById('dlt-input').addEventListener('keyup', function (event) {
     const p = event.target.value;
     console.log(p);
