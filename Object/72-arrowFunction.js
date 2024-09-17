@@ -13,3 +13,8 @@ const displayFunction = () => {
     console.log('this is arrow function');
 }
 displayFunction()
+
+
+const returnFun = () =>
+    'Hi i am message'
+console.log(returnFun())
