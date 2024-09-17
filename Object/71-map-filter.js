@@ -1,6 +1,6 @@
 // map and filter array function
 
-const numbers = [10, 20, 30, 40]
+let numbers = [10, 20, 30, 40]
 
 // numbers.map((number)=> {
 //     console.log(number)
@@ -10,6 +10,9 @@ numbers.map(number => {
     console.log(number)
 })
 
-numbers.filter(num => {
-    console.log(num)
-})
+// function canVote(age) {
+//     return age > 18
+// }
+
+const number1 = numbers.filter(number => number > 18)
+console.log(number1)
