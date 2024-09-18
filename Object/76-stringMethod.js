@@ -10,6 +10,6 @@ console.log(message.endsWith('Friday'));
 
 // includes(searchString, position) => check if a string contains another string
 
-console.log(message.includes('x'));
+console.log(message.includes('today'));
 
 // all these method are case sensitive
