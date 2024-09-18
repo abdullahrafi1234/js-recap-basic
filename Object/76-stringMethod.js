@@ -1,1 +1,1 @@
-// 
+// startWith(searchString, position) => check a string starts with another string
