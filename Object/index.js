@@ -6,7 +6,20 @@ class Student {
         this.id = id;
         this.name = name;
     }
+
+    set studentName (name){
+        this.name = name
+    }
+
+    get studentInfo(){
+        return this.id + " " + this.name
+    }
 }
 
 let s1 = new Student(101, 'Rafi')
 console.log(s1)
+
+s1.studentName= 'lalalal'
+console.log(s1);
+
+console.log(s1.studentInfo);
