@@ -1,5 +1,5 @@
-import {text} from './77-ES6-modules-class.js';
-console.log(text)
+// import {text} from './77-ES6-modules-class.js';
+// console.log(text)
 
 class Student {
     constructor(id, name){
@@ -7,3 +7,6 @@ class Student {
         this.name = name;
     }
 }
+
+let s1 = new Student(101, 'Rafi')
+console.log(s1)
