@@ -5,4 +5,4 @@ const promise1 = new Promise((resolve, reject) => {
 
 })
 
-// 2. how to use promise
+// 2. how to use promise 
