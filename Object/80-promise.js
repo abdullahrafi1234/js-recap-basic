@@ -1,9 +1,9 @@
-// js Promise
+// js Promise ( its a async element)
 
 
 // 1. How to create promise => pending, resolve, reject
 const promise1 = new Promise((resolve, reject) => {
-    let completedPromise = true;
+    let completedPromise = false;
 
     if (completedPromise) {
         resolve('Completed Promise 1')
@@ -32,4 +32,7 @@ promise1
     })
 
 
-// 2. how to use promise 
+promise2 
+    .then(res => {
+        console.log(res);
+    })
