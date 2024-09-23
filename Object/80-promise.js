@@ -6,7 +6,9 @@ const promise1 = new Promise((resolve, reject) => {
     let completedPromise = true;
 
     if (completedPromise) {
-        resolve('Completed Promise 1')
+        setTimeout(() => {
+            resolve('Completed Promise 1')
+        }, 5000)
     }
     else {
         reject('not completed promise 1')
@@ -39,5 +41,9 @@ const promise2 = new Promise((resolve, reject) => {
 
 // how to run all promise at a time
 
-Promise.all([promise1, promise2])
+// Promise.all([promise1, promise2])
+//     .then((res) => console.log(res))
+
+// jeita promise age complete hbe shodo oitar output dibe
+Promise.race([promise1, promise2])
     .then((res) => console.log(res))
