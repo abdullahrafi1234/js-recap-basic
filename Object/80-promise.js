@@ -21,7 +21,7 @@ promise1
         console.log(res);
     })
 
-//function resolve na hoile then er modde jabe
+//function reject hoile catch er modde jabe
     .catch(res => {
         console.log(res);
     })
