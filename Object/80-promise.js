@@ -13,7 +13,7 @@ const promise1 = new Promise((resolve, reject) => {
     }
 
 })
-console.log(promise1);
+// console.log(promise1);
 
 //function resolve hoile then er modde jabe
 promise1
@@ -21,6 +21,7 @@ promise1
         console.log(res);
     })
 
+//function resolve na hoile then er modde jabe
     .catch(res => {
         console.log(res);
     })
