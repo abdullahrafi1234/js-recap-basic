@@ -15,8 +15,10 @@ const promise1 = new Promise((resolve, reject) => {
 })
 
 const promise2 = new Promise((resolve, reject) => {
-
+    resolve('completed promise 2')
 })
+
+
 
 //function resolve hoile then er modde jabe
 promise1
