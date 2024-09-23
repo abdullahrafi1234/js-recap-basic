@@ -36,3 +36,10 @@ promise2
     .then(res => {
         console.log(res);
     })
+
+    // how to run all promise at a time
+
+    Promise.all([promise1, promise2])
+    .then(res => {
+        console.log(res);
+    })
