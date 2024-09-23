@@ -13,7 +13,10 @@ const promise1 = new Promise((resolve, reject) => {
     }
 
 })
-// console.log(promise1);
+
+const promise2 = new Promise((resolve, reject) => {
+
+})
 
 //function resolve hoile then er modde jabe
 promise1
