@@ -3,7 +3,7 @@
 
 // 1. How to create promise => pending, resolve, reject
 const promise1 = new Promise((resolve, reject) => {
-    let completedPromise = true;
+    let completedPromise = false;
 
     if(completedPromise){
         resolve('Completed Promise 1')
@@ -15,6 +15,10 @@ const promise1 = new Promise((resolve, reject) => {
 })
 console.log(promise1);
 promise1.then(res => {  //function resolve hoile then er modde jabe
+    console.log(res);
+})
+
+promise1.catch(res => {
     console.log(res);
 })
 
