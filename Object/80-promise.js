@@ -3,6 +3,11 @@
 
 // 1. How to create promise => pending, resolve, reject
 const promise1 = new Promise((resolve, reject) => {
+    let completedPromise = true;
+
+    if(completedPromise){
+        resolve('Completed Promise 1')
+    }
 
 })
 
