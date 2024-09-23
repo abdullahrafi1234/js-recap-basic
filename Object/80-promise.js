@@ -14,7 +14,9 @@ const promise1 = new Promise((resolve, reject) => {
 
 })
 console.log(promise1);
-promise1.then(res => {  //function resolve hoile then er modde jabe
+
+ //function resolve hoile then er modde jabe
+promise1.then(res => { 
     console.log(res);
 })
 
