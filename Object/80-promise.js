@@ -13,6 +13,7 @@ const promise1 = new Promise((resolve, reject) => {
     }
 
 })
+console.log(promise1);
 
 
 // 2. how to use promise 
