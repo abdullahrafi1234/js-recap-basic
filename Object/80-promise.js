@@ -8,6 +8,9 @@ const promise1 = new Promise((resolve, reject) => {
     if(completedPromise){
         resolve('Completed Promise 1')
     }
+    else{
+        reject('not completed promise 1')
+    }
 
 })
 
