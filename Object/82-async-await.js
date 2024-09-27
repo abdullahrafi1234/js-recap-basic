@@ -1,2 +1,2 @@
-// async await
+// async await in js
 
